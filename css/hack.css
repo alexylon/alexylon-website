@@ -214,7 +214,6 @@ a:hover {
 .hack h1 {
   position: relative;
   display: inline-block;
-  display: table-cell;
   padding: 20px 0 30px;
   margin: 0;
   overflow: hidden;
@@ -281,7 +280,6 @@ a:hover {
 .hack blockquote {
   position: relative;
   padding-left: 17px;
-  padding-left: 2ch;
   overflow: hidden;
 }
 .hack blockquote:after {
@@ -470,7 +468,6 @@ textarea.form-control {
   padding: 1rem 0;
   border-bottom: 2px solid #ccc;
   border-left: 2px solid #ccc;
-  padding: 0.5rem;
 }
 select.form-control {
   border-radius: 0;
@@ -527,7 +524,6 @@ select.form-control {
   display: flex;
 }
 .btn-default {
-  color: #fff;
   background-color: #e0e0e0;
   border: 1px solid #e0e0e0;
   color: #333;
