@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 main {
     /*font-family: monospace, monospace;*/
     max-width: 60rem;
@@ -7,7 +11,7 @@ main {
 
 @media only screen and (max-device-width: 736px) {
     main {
-        padding: 2rem;
+        padding: 1rem;
     }
 }
 
@@ -27,8 +31,7 @@ pre {
 }
 
 a, a:active, a:visited {
-    color: #b16286;
-    background-color: #1d2021;
+    color: #b2c2eb;
 }
 
 h1, h2, h3, h4, h5 {
@@ -53,6 +56,19 @@ footer {
 
 ul > li {
     list-style-type: '-  ';
+}
+
+hr {
+    margin: 1.875em 0;
+    border: none;
+    border-bottom: solid 1px #000000;
+}
+
+.dashed {
+    border: none;
+    height: 1px;
+    background: #000;
+    background: repeating-linear-gradient(90deg, #ebdbb2, #ebdbb2 6px, transparent 2px, transparent 8px);
 }
 
 /*@media (prefers-color-scheme: light) {*/
