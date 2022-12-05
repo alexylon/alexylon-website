@@ -15,32 +15,13 @@ main {
     }
 }
 
-::selection {
-    background: #565264;
-}
-
-body {
-    background: #282828;
-    color: #ebdbb2;
-}
-
-pre {
-    background-color: #3c3836;
-    padding: 1em;
-    border: 0;
-}
-
-a, a:active, a:visited {
-    color: #b2c2eb;
+h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 h1, h2, h3, h4, h5 {
     margin-bottom: .1rem;
-}
-
-h3 {
-    margin-top: 50px;
-    margin-bottom: 20px;
 }
 
 blockquote {
@@ -70,31 +51,3 @@ hr {
     background: #000;
     background: repeating-linear-gradient(90deg, #ebdbb2, #ebdbb2 6px, transparent 2px, transparent 8px);
 }
-
-/*@media (prefers-color-scheme: light) {*/
-/*    body {*/
-/*        background: #fbf1c7;*/
-/*        color:      #3c3836;*/
-/*    }*/
-
-/*    pre {*/
-/*        background-color: #ebdbb2;*/
-/*        padding: 1em;*/
-/*        border: 0;*/
-/*    }*/
-
-/*    a, a:active, a:visited {*/
-/*        color: #b16286;*/
-/*        background-color: #f9f5d7;*/
-/*    }*/
-
-/*    h1, h2, h3, h4, h5 {*/
-/*        margin-bottom: .1rem;*/
-/*    }*/
-
-/*    blockquote {*/
-/*        border-left: 1px solid #655c54;*/
-/*        margin: 0.5em 10px;*/
-/*        padding: 0.5em 10px;*/
-/*    }*/
-/*}*/

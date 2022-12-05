@@ -3,9 +3,10 @@
 <head>
     <title>Alexander</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
-    <link rel="stylesheet" href="/css/gruvbox-dark.css">
-    <link rel="stylesheet" href="/css/alexess.css">
-    <link rel="stylesheet" href="/css/hack.css">
+    <link rel="stylesheet" href="/css/alexess.css" type="text/css">
+    <link rel="stylesheet" href="/css/alexess-dark.css" type="text/css" id="alexess-theme">
+    <link rel="stylesheet" href="/css/gruvbox-dark.css" type="text/css" id="gruvbox-theme">
+    <link rel="stylesheet" href="/css/hack.css" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
@@ -16,6 +17,25 @@
     <a href="#resume">Resume</a>
     <span>-</span>
     <a href="#contact">Contact</a>
+    <span>|</span>
+    <a id="switch">Jedi/Sith</a>
+    <span>|</span>
+
+    <script>
+        document.getElementById('switch').onclick = function() {
+            if (document.getElementById('alexess-theme').getAttribute("href") === "/css/alexess-dark.css"
+                &&
+                document.getElementById('gruvbox-theme').getAttribute("href") === "/css/gruvbox-dark.css") {
+                document.getElementById('alexess-theme').href = "/css/alexess-light.css";
+                document.getElementById('gruvbox-theme').href = "/css/gruvbox-light.css";
+                document.getElementById('top').className = "gruvbox-light";
+            } else {
+                document.getElementById('alexess-theme').href = "/css/alexess-dark.css";
+                document.getElementById('gruvbox-theme').href = "/css/gruvbox-dark.css";
+                document.getElementById('top').className = "gruvbox-dark";
+            }
+        };
+    </script>
 
     <br/> <br/>
 

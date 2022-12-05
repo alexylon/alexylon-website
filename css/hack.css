@@ -52,18 +52,18 @@ iframe {
     max-width: 100%;
 }
 
-a {
-    cursor: pointer;
-    color: #FFA8CE;
-    text-decoration: none;
-    border-bottom: 1px solid;
-    border-color: #FFA8CE;
-}
+/*a {*/
+/*    cursor: pointer;*/
+/*    color: #FFA8CE;*/
+/*    text-decoration: none;*/
+/*    border-bottom: 1px solid;*/
+/*    border-color: #FFA8CE;*/
+/*}*/
 
-a:hover {
-    background-color: #B3004D;
-    color: #fff;
-}
+/*a:hover {*/
+/*    background-color: #B3004D;*/
+/*    color: #fff;*/
+/*}*/
 
 .grid {
     display: -ms-flexbox;
@@ -886,14 +886,14 @@ select.form-control {
     margin-bottom: -5px;
 }
 
-@keyframes a {
-    0% {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(1turn);
-    }
-}
+/*@keyframes a {*/
+/*    0% {*/
+/*        transform: rotate(0deg);*/
+/*    }*/
+/*    to {*/
+/*        transform: rotate(1turn);*/
+/*    }*/
+/*}*/
 
 .menu {
     width: 100%;
